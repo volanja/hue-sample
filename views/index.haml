@@ -1,0 +1,7 @@
+%h1= @site_name
+%nav
+  %ul
+    - @nav.each do |n|
+      %li
+        %a{href:"/#{n}"}= n
+%p welcome to hue!
